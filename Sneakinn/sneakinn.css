@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.navbar{
+    background-color:black;
+    height: 95px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* justify-content: start; */
+    text-align: center;
+
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.search{
+    width: 200px;
+    padding: 0px 10px;
+}
+.logo{
+    border-radius: 50px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;  
+}
+
+.Home{
+    color: white; 
+    padding: 40px;  
+    text-decoration: none;
+}
+.Aboutus{
+    color: white; 
+    padding: 40px 30px; 
+    text-decoration: none;
+}
+.Contact{
+    color: white; 
+    padding: 40px 30px; 
+    text-decoration: none;
+}
+.login{
+    color: white;
+    padding: 40px 30px;
+    text-decoration: none;
+}
+.box{
+    margin: 100px;
+}
+
+.container{
+    display: flex;
+}
+.A img{
+    height:100px;
+    width: 750px;
+    height: 125vh;
+    /* border: 1px solid white;
+    border-radius: 20px; */
+}
+.B img{
+    margin: 25px;
+    
+    /* height: 600px; */
+    width: 650px;
+    /* border: 1px solid white;
+    border-radius: 20px; */
+}
+.C img{
+    margin: 10px 25px;
+    margin-top: 30px;
+    /* margin-left: 135px; */
+    height: 450px;
+    width: 650px;  
+    /* border: 1px solid white;
+    border-radius: 20px; */
+}
+
+.contain{
+    display: flex;
+    /* flex-direction: column; */
+    /* align-content: center; */
+    margin-top: 40px;
+    /* gap: 40px; */
+
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.ft{
+    text-align: center;
+}
+.Home:hover{
+    text-decoration:underline white ;
+}
+.Aboutus:hover{
+    text-decoration:underline white ;
+}
+.login:hover{
+    text-decoration:underline white ;
+}
+.Contact:hover{
+    text-decoration:underline white ;
+}
+.B img:hover{
+    box-shadow: 2px 2px white;
+}
+.A img:hover{
+    box-shadow: 2px 2px white;
+}
+.C img:hover{
+    box-shadow: 2px 2px white;
+}

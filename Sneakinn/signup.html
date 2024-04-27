@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup</title>
+    <link rel="stylesheet" href="sneakinn.css">
+    <script src="signup.js"></script>
+    <style>
+        .box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            direction: column;
+        }
+        .log{
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            direction: column;
+            border: 1px solid white;
+            width: 700px;
+            border-radius: 30px;
+        }
+        .heading{
+            margin-top: 80px;
+            padding: 5px;
+        }
+        .sub{
+            line-height: 6ch;
+            text-align: center;
+        }
+        .email{
+            padding: 0px 20px 20px;
+        }
+        .inputemail{
+            padding: 5px 20px;
+        }
+        .password{
+            padding:0px 20px 20px;
+        }
+        .inputpassword{
+            padding: 5px 20px;
+        }
+        #sign{
+            text-align: center;
+            font-weight: bolder;
+            color: white;
+        }
+        .signup{
+            text-align: center;
+            padding:0px 0px 50px
+        }
+        .button{
+            color: black;
+            text-align: center;
+            border: 2px solid FF8C00;
+            border-radius: 10px;
+            background-color:#f7ab15 ;
+            padding: 10px;
+            margin:0px 20px 20px;
+        }
+        .button:hover{
+            background-color: #f2bc4f;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<header>
+    <nav class="navbar">
+        <div class="buttons">
+            <a href="index.html" class="Home">Home</a>
+            <a href="Aboutus.html" class="Aboutus"  >About us</a>
+            <a href="contact.html" class="Contact" >Contact</a>
+            <a class="login"  href="login.html">Login/Signup </a>
+        </div>
+        <a href="index.html"><img src="Sneakinn-logos.jpeg" alt="" class="logo" height="75px" ></a>
+        <div class="box">
+            <input type="text" name="" id="" placeholder="🔍Search" class="search">
+            <!-- <a href="cart.html"><img src="cart.png" alt="" height="25px" class="cart"></a> --> 
+        </div>
+    </nav>
+</header>
+<body>
+    <div class="box">
+        <div class="log">
+            <div class="heading">
+                <h1>
+                    Register Now!
+                </h1>
+                <div class="sub">
+                    Please Register with
+                </div>
+                <div class="email">
+                    Username
+                    <br>
+                    <input type="text" id="username" placeholder="Username" class="inputemail">
+                </div>
+                <div class="email">
+                    Email:
+                    <br>
+                    <input type="text" id="email" placeholder="Email" class="inputemail">
+                </div>
+                <div class="password">
+                    Enter your password:
+                    <br>
+                    <input type="password" id="password" placeholder="Password" class="inputpassword">
+                </div>
+                <div class="button" onclick="validateSignup()">
+                    Signup
+                </div>   
+                <div class="signup">Already have an account? <a href="login.html" id="sign">Login in now</a></div>
+            </div>   
+        </div>
+    </div>
+</body>
+</html>
